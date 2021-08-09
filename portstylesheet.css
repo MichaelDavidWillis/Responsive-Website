@@ -1,0 +1,367 @@
+* {
+	border: none;
+	margin: 0em;
+	padding: 0em;
+	}
+
+body {
+	height: 100%;
+	overflow: hidden;
+	margin: 0em;
+	padding: 0em;
+	width: 100%;
+	}	
+
+	.sidebar {
+		height: 100%;
+		min-height: 40em;
+		position: absolute;
+			top: 0%;
+			right: 61%
+			bottom: 0%;
+			left: 0%;
+		width: 39%;
+		}
+	
+	.index {
+		height: 28em;
+		position: absolute;
+			right: 0%;
+			bottom: 0%;
+			left: 0%;
+		width: 100%;
+		}
+		
+		.home {
+			background-image: URL("pictures/homeL.png");
+			background-size: auto 100%;
+			background-repeat: no-repeat;
+			background-position: right;
+			border: 0%;
+			height: 7em;
+			position: absolute;
+				top: 0%;
+				left: 0%;
+				right: 0%;
+			}
+		
+		.bio {
+			background-image: URL("pictures/bioL.png");
+			background-size: auto 100%;
+			background-repeat: no-repeat;
+			background-position: right;
+			border: 0%;
+			height: 7em;
+			position: absolute;
+				top: 7em;
+				left: 0%;
+				right: 0%;
+			}
+		
+		.port {
+			background-image: URL("pictures/portfolioL.png");
+			background-size: auto 100%;
+			background-repeat: no-repeat;
+			background-position: right;
+			border: 0em;
+			height: 7em;
+			position: absolute;
+				top: 14em;
+				left: 0%;
+				right: 0%;
+			}
+		
+		.con {
+			background-image: URL("pictures/contactL.png");
+			background-size: auto 100%;
+			background-repeat: no-repeat;
+			background-position: right;
+			height: 7em;
+			position: absolute;
+				top: 21em;
+				left: 0%;
+				bottom:0%;
+				right: 0%;
+			}
+			
+			.aLink {
+				height: 100%;
+				width: 100%;
+				}
+		
+		.links {
+			height: 3.5em;
+			position: absolute;
+				top: 0.5em;
+				left: 0.5em;
+			width: 14em;
+			}
+			
+			.imageLink1 {
+				position: absolute;
+					top: 0%;
+					left: 0em;
+					bottom: 0%;
+				}
+			
+			.imageLink2 {
+				position: absolute;
+					top: 0%;
+					left: 3.5em;
+					bottom: 0%;
+				}
+			
+			.imageLink3 {
+				position: absolute;
+					top: 0%;
+					left: 7em;
+					bottom: 0%;
+				}
+			
+			.imageLink4 {
+				position: absolute;
+					top: 0%;
+					left: 10.5em;
+					bottom: 0%;
+				}
+	
+	.main {
+		min-height: 45em;
+		position: absolute;
+			top: 0%;
+			left: 39%;
+			bottom: 0%;
+			right: 0%;
+		width: 61%;
+		}
+			
+		.mainBox {
+			overflow-y: contain;
+			border-top: none;
+			border-right: 0.1em solid lightgrey;
+			border-bottom: 0.3em solid #333333;
+			border-left: 0.2em solid #666666;
+			position: absolute;
+				top: 3em;
+				left: 2em;
+				bottom: 3em;
+				right: 2em;
+			}
+			
+			.flexslider {
+				height: 35em;
+				margin-top: 0em;
+				margin-left: auto;
+				margin-right: auto;
+				position: absolute;
+					top: 0em;
+					bottom: 0em;
+				}
+				
+			.caption {
+				font-family: Baskerville, "Vladimir Script", Arial;
+				font-size: 2em;
+				text-align: center;
+				}
+
+/* bio */
+				
+		.nicpic {
+			background-image: URL("pictures/nicole.jpg");
+			background-size: 12em 19em;
+			background-repeat: no-repeat;
+			height: 19em;
+			position: absolute;
+				top: 1em;
+				left: 36%;
+				right: 36%;
+			width: 12em;
+			}
+		
+		.desc {
+			overflow-y: auto;
+			position: absolute;
+				top: 21em;
+				right: 5%;
+				bottom: 2em;
+				left: 5%;
+			}
+		
+			P {
+				font-family: Baskerville, "Vladimir Script", Arial;
+				font-size: 2em;
+				line-height: 95%;
+				}
+				
+/* Portfolio */
+				
+		.aop {
+			background-image: URL("pictures/AOP/cover.jpeg");
+			background-size: auto 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+			height: 45%;
+			position: absolute;
+				top: 1em;
+			width: 100%;
+			}
+		
+		.noub {
+			background-image: URL("pictures/NOUB/cover1.png");
+			background-size: 100% auto;
+			background-repeat: no-repeat;
+			height: 45%;
+			position: absolute;
+				bottom: 1em;
+				left: 0;
+				right: 0;
+			width: 100%;
+			}
+
+/* contact */
+
+		.conSend {
+			position: absolute;
+				top: 10em;
+			}
+			
+			.form {
+				margin: 0%;
+				margin-right: auto;
+				margin-left: auto;
+				max-width: 30em;
+				padding: 0em;
+				position: relative;
+					top: 2em;
+				}
+			
+@media screen and (max-width: 1200px) {
+	
+body {
+	height: 100vh;
+	overflow-y: scroll;
+	}
+	
+	.sidebar {
+		height: 39vh;
+		min-height: 18em;
+		position: relative;
+			top: 0%;
+			right: 0%;
+			left: 0%;
+		width: auto;
+		}
+	
+		.index {
+			height: 100%;
+			position: absolute;
+				top: 0%;
+				right: 0%;
+				bottom: 0%;
+				left: 39%;
+			width: 61%;
+			}
+	
+			.home {
+				background-image: URL("pictures/home.png");
+				background-position: left;
+				height: 25%;
+				position: absolute;
+					top: 0%;
+					left: 0%;
+					right: 0%;
+				}
+			
+			.bio {
+				background-image: URL("pictures/bio.png");
+				background-position: left;
+				height: 25%;
+				position: absolute;
+					top: 25%;
+					left: 0%;
+					right: 0%;
+				}
+			
+			.port {
+				background-image: URL("pictures/portfolio.png");
+				background-position: left;
+				height: 25%;
+				position: absolute;
+					top: 50%;
+					left: 0%;
+					right: 0%;
+				}
+			
+			.con {
+				background-image: URL("pictures/contact.png");
+				background-position: left;
+				height: 25%;
+				position: absolute;
+					top: 75%;
+					left: 0%;
+					right: 0%;
+				}
+			
+		.links {
+			height: 14em;
+			position: absolute;
+				top: 0.5em;
+				left: 0.5em;
+			width: 3.5em;
+			}
+			
+			.imageLink1 {
+				position: absolute;
+					top: 0em;
+					left: 0em;
+				}
+							
+			.imageLink2 {
+				position: absolute;
+					top: 3.5em;
+					left: 0em;
+				}
+				
+			.imageLink3 {
+				position: absolute;
+					top: 7em;
+					left: 0em;
+				}
+			
+			.imageLink4 {
+				position: absolute;
+					top: 10.5em;
+					left: 0em;
+				}
+	
+	.main {
+		height: 61vh;
+		min-height: 44em;
+		overflow-y: visible;
+		position: relative;
+			top: 1em;
+			right: 0%;
+			bottom: 0%;
+			left: 0%;
+		width: 100%;
+		}
+		
+		.mainBox {
+			height: 39em;
+			position: absolute;
+				top: 3em;
+				left: 2em;
+				bottom: 3em;
+				right: 2em;
+			}
+		
+			.flexslider {
+				height: 35em;
+				margin-top: 0em;
+				margin-left: auto;
+				margin-right: auto;
+				position: absolute;
+					top: 0em;
+					bottom: 0em;
+				}
+	}
